@@ -1,0 +1,87 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 23/08/2018 09:45
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-001-advertising:before { content: "\f100"; }
+.flaticon-002-branding:before { content: "\f101"; }
+.flaticon-003-business-plan:before { content: "\f102"; }
+.flaticon-004-competition:before { content: "\f103"; }
+.flaticon-005-cost:before { content: "\f104"; }
+.flaticon-006-feedback:before { content: "\f105"; }
+.flaticon-007-customer:before { content: "\f106"; }
+.flaticon-008-debt:before { content: "\f107"; }
+.flaticon-009-goal:before { content: "\f108"; }
+.flaticon-010-growth:before { content: "\f109"; }
+.flaticon-011-idea:before { content: "\f10a"; }
+.flaticon-012-location:before { content: "\f10b"; }
+.flaticon-013-negotiation:before { content: "\f10c"; }
+.flaticon-014-outsourcing:before { content: "\f10d"; }
+.flaticon-015-planning:before { content: "\f10e"; }
+.flaticon-016-production:before { content: "\f10f"; }
+.flaticon-017-project-management:before { content: "\f110"; }
+.flaticon-018-service:before { content: "\f111"; }
+.flaticon-019-risk:before { content: "\f112"; }
+.flaticon-020-solution:before { content: "\f113"; }
+.flaticon-021-solution-1:before { content: "\f114"; }
+.flaticon-022-strategy:before { content: "\f115"; }
+.flaticon-023-teamwork:before { content: "\f116"; }
+.flaticon-024-value:before { content: "\f117"; }
+    
+    $font-Flaticon-001-advertising: "\f100";
+    $font-Flaticon-002-branding: "\f101";
+    $font-Flaticon-003-business-plan: "\f102";
+    $font-Flaticon-004-competition: "\f103";
+    $font-Flaticon-005-cost: "\f104";
+    $font-Flaticon-006-feedback: "\f105";
+    $font-Flaticon-007-customer: "\f106";
+    $font-Flaticon-008-debt: "\f107";
+    $font-Flaticon-009-goal: "\f108";
+    $font-Flaticon-010-growth: "\f109";
+    $font-Flaticon-011-idea: "\f10a";
+    $font-Flaticon-012-location: "\f10b";
+    $font-Flaticon-013-negotiation: "\f10c";
+    $font-Flaticon-014-outsourcing: "\f10d";
+    $font-Flaticon-015-planning: "\f10e";
+    $font-Flaticon-016-production: "\f10f";
+    $font-Flaticon-017-project-management: "\f110";
+    $font-Flaticon-018-service: "\f111";
+    $font-Flaticon-019-risk: "\f112";
+    $font-Flaticon-020-solution: "\f113";
+    $font-Flaticon-021-solution-1: "\f114";
+    $font-Flaticon-022-strategy: "\f115";
+    $font-Flaticon-023-teamwork: "\f116";
+    $font-Flaticon-024-value: "\f117";
