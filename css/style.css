@@ -196,6 +196,10 @@ a:active {
     -webkit-transition: all ease-in-out 0.4s;
     transition: all ease-in-out 0.4s;
 }
+.btn:hover{
+    color: #fff;
+    background-color: #492af8;
+}
 .btn-main {
     color: #ffffff;
     background-color: #1b1a1a;
@@ -1274,7 +1278,7 @@ a:active {
 
 .text-bottom {
     border-top: 1px solid #e4e5e7;
-    padding: 20px 0px;
+    padding: 30px 0px;
     text-align: center;
 }
 
