@@ -34,7 +34,7 @@
                         <a href="javascript:void(0);">Services</a>
                     </li>
                     <li>
-                        <a href="javascript:void(0);">Contact</a>
+                        <a href="contact.php">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -48,7 +48,7 @@
                         <a href="javascript:void(0);">Services</a>
                     </li>
                     <li>
-                        <a href="javascript:void(0);">Contact</a>
+                        <a href="contact.php">Contact</a>
                     </li>
                 </ul>
             </div>
