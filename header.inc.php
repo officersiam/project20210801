@@ -50,7 +50,7 @@
             <div class="navbar-collapse collapse" id="data-scroll">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="index.php">Home</a>
                     </li>
                     <li>
                         <a href="javascript:void(0);">Services</a>

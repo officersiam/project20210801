@@ -28,7 +28,7 @@
                 <h5 class="footer_header">Useful Links</h5>
                 <ul class="list-unstyled footer-list">
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="index.php">Home</a>
                     </li>
                     <li>
                         <a href="javascript:void(0);">Services</a>
@@ -42,7 +42,7 @@
                 <h5 class="footer_header">Useful Links</h5>
                 <ul class="list-unstyled footer-list">
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="index.php">Home</a>
                     </li>
                     <li>
                         <a href="javascript:void(0);">Services</a>
