@@ -130,7 +130,7 @@
                                     <p class="product-price">$50</p>
                                 </div>
                                 <div class="text-bottom">
-                                    <button href="#" class="add-button">Add to Car</button>
+                                    <a href="#" class="add-button">Add to Car</a>
                                 </div>
                             </div>
                         </div>
@@ -146,7 +146,7 @@
                                     <p class="product-price">$50</p>
                                 </div>
                                 <div class="text-bottom">
-                                    <button href="#" class="add-button">Add to Car</button>
+                                    <a href="#" class="add-button">Add to Car</a>
                                 </div>
                             </div>
                         </div>
@@ -162,7 +162,7 @@
                                     <p class="product-price">$50</p>
                                 </div>
                                 <div class="text-bottom">
-                                    <button href="#" class="add-button">Add to Car</button>
+                                    <a href="#" class="add-button">Add to Car</a>
                                 </div>
                             </div>
                         </div>
@@ -178,7 +178,7 @@
                                     <p class="product-price">$50</p>
                                 </div>
                                 <div class="text-bottom">
-                                    <button href="#" class="add-button">Add to Car</button>
+                                    <a href="#" class="add-button">Add to Car</a>
                                 </div>
                             </div>
                         </div>
@@ -194,7 +194,7 @@
                                     <p class="product-price">$50</p>
                                 </div>
                                 <div class="text-bottom">
-                                    <button href="#" class="add-button">Add to Car</button>
+                                    <a href="#" class="add-button">Add to Car</a>
                                 </div>
                             </div>
                         </div>
@@ -210,7 +210,7 @@
                                     <p class="product-price">$50</p>
                                 </div>
                                 <div class="text-bottom">
-                                    <button href="#" class="add-button">Add to Car</button>
+                                    <a href="#" class="add-button">Add to Car</a>
                                 </div>
                             </div>
                         </div>
@@ -226,7 +226,7 @@
                                     <p class="product-price">$50</p>
                                 </div>
                                 <div class="text-bottom">
-                                    <button href="#" class="add-button">Add to Car</button>
+                                    <a href="#" class="add-button">Add to Car</a>
                                 </div>
                             </div>
                         </div>
@@ -242,7 +242,7 @@
                                     <p class="product-price">$50</p>
                                 </div>
                                 <div class="text-bottom">
-                                    <button href="#" class="add-button">Add to Car</button>
+                                    <a href="#" class="add-button">Add to Car</a>
                                 </div>
                             </div>
                         </div>
@@ -252,7 +252,7 @@
         </div>
     </div>
     <div class="more-button">
-        <a href="product.html"><button href="#" class="btn btn_blue_black more_button">More</button></a>
+        <a href="product.php" class="btn btn_blue_black more_button">More</a>
     </div>
 </section>
 <!-- ==========  projects  Section End ========== -->
@@ -328,62 +328,98 @@
 
         <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-4@s uk-grid" uk-slideshow="autoplay:true">
             <li>
-                <div class="uk-card uk-card-default">
-                    <div class="uk-card-media-top">
+                <div class="product-card">
+                    <div class="product-img">
                         <img src="img/projects/pro07.png" alt="">
                     </div>
-                    <div class="uk-card-body text-center">
-                        <h3 class="uk-card-title">Product 1</h3>
-                        <p style="font-size: 25px;color:#DB1212">$50</p>
-                        <button href="#" class="btn btn_blue_black submit_btn">Buy Now</button>
+                    <div class="product-text-center">
+                        <div class="text-top">
+                            <h2 class="product-title">Product-1</h2>
+                            <p class="product-price">$50</p>
+                        </div>
+                        <div class="text-bottom">
+                            <a href="#" class="add-button">Add to Car</a>
+                        </div>
                     </div>
                 </div>
             </li>
             <li>
-                <div class="uk-card uk-card-default">
-                    <div class="uk-card-media-top">
+                <div class="product-card">
+                    <div class="product-img">
                         <img src="img/projects/pro08.png" alt="">
                     </div>
-                    <div class="uk-card-body text-center">
-                        <h3 class="uk-card-title">Product 2</h3>
-                        <p style="font-size: 25px;color:#DB1212">$100</p>
-                        <button href="#" class="btn btn_blue_black submit_btn">Buy Now</button>
+                    <div class="product-text-center">
+                        <div class="text-top">
+                            <h2 class="product-title">Product-1</h2>
+                            <p class="product-price">$50</p>
+                        </div>
+                        <div class="text-bottom">
+                            <a href="#" class="add-button">Add to Car</a>
+                        </div>
                     </div>
                 </div>
             </li>
             <li>
-                <div class="uk-card uk-card-default">
-                    <div class="uk-card-media-top">
+                <div class="product-card">
+                    <div class="product-img">
                         <img src="img/projects/pro09.png" alt="">
                     </div>
-                    <div class="uk-card-body text-center">
-                        <h3 class="uk-card-title">Product 3</h3>
-                        <p style="font-size: 25px;color:#DB1212">$150</p>
-                        <button href="#" class="btn btn_blue_black submit_btn">Buy Now</button>
+                    <div class="product-text-center">
+                        <div class="text-top">
+                            <h2 class="product-title">Product-1</h2>
+                            <p class="product-price">$50</p>
+                        </div>
+                        <div class="text-bottom">
+                            <a href="#" class="add-button">Add to Car</a>
+                        </div>
                     </div>
                 </div>
             </li>
             <li>
-                <div class="uk-card uk-card-default">
-                    <div class="uk-card-media-top">
+                <div class="product-card">
+                    <div class="product-img">
                         <img src="img/projects/pro07.png" alt="">
                     </div>
-                    <div class="uk-card-body text-center">
-                        <h3 class="uk-card-title">Product 4</h3>
-                        <p style="font-size: 25px;color:#DB1212">$300</p>
-                        <button href="#" class="btn btn_blue_black submit_btn">Buy Now</button>
+                    <div class="product-text-center">
+                        <div class="text-top">
+                            <h2 class="product-title">Product-1</h2>
+                            <p class="product-price">$50</p>
+                        </div>
+                        <div class="text-bottom">
+                            <a href="#" class="add-button">Add to Car</a>
+                        </div>
                     </div>
                 </div>
             </li>
             <li>
-                <div class="uk-card uk-card-default">
-                    <div class="uk-card-media-top">
+                <div class="product-card">
+                    <div class="product-img">
                         <img src="img/projects/pro08.png" alt="">
                     </div>
-                    <div class="uk-card-body text-center">
-                        <h3 class="uk-card-title">Product 5</h3>
-                        <p style="font-size: 25px;color:#DB1212">$350</p>
-                        <button href="#" class="btn btn_blue_black submit_btn">Buy Now</button>
+                    <div class="product-text-center">
+                        <div class="text-top">
+                            <h2 class="product-title">Product-1</h2>
+                            <p class="product-price">$50</p>
+                        </div>
+                        <div class="text-bottom">
+                            <a href="#" class="add-button">Add to Car</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-card">
+                    <div class="product-img">
+                        <img src="img/projects/pro09.png" alt="">
+                    </div>
+                    <div class="product-text-center">
+                        <div class="text-top">
+                            <h2 class="product-title">Product-1</h2>
+                            <p class="product-price">$50</p>
+                        </div>
+                        <div class="text-bottom">
+                            <a href="#" class="add-button">Add to Car</a>
+                        </div>
                     </div>
                 </div>
             </li>
