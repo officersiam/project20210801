@@ -1,75 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <!-- ========== Meta Tags ========== -->
-    <meta charset="UTF-8">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="author" content="Siam Al Mahmud">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <!-- ========== Title ========== -->
-    <title>Title Diboni</title>
-    <!-- ========== STYLESHEETS ========== -->
-    <!-- Bootstrap CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Fonts Icon CSS -->
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <!-- UI KIT CSS -->
-    <link href="css/uikit.min.css" rel="stylesheet">
-    <!-- Animate CSS -->
-    <link rel="stylesheet" href="css/animate.min.css">
-    <!-- Animate CSS -->
-    <link rel="stylesheet" href="css/flaticon.css">
-    <!-- Custom styles for this template -->
-    <link href="css/style.css" rel="stylesheet">
-</head>
-<body  data-spy="scroll" data-target=".navbar" data-offset="50">
-
-    <!-- ========== Header ========== -->
-    <div class="navbar header navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Navbar-header -->
-            <div class=" navbar-header">
-                <button type="button" class="navbar-toggle mobile_menu_btn" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <!-- LOGO -->
-                <a class="logo" href="index.html">
-                    Kicu Ekta Diboni
-                </a>
-                <a class="sticky-logo" href="index.html">
-                    Kicu Ekta Diboni
-                </a>
-            </div>
-            <!-- end navbar-header -->
-
-            <!-- menu -->
-            <div class="navbar-collapse collapse" id="data-scroll">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="#home">Home</a>
-                    </li>
-                    <li>
-                        <a href="#services">Services</a>
-                    </li>
-
-                    <li>
-                        <a href="#projects">Projects</a>
-                    </li>
-                    <li>
-                        <a href="#contact">Contact</a>
-                    </li>
-
-                </ul>
-            </div>
-            <!--/Menu -->
-        </div>
-        <!-- end container -->
-    </div>
-    <!-- ========== Header End ========== -->
+<?php
+    include ("header.inc.php");
+?>
 
     <!-- ========== hero section ========== -->
     <section id="home" class="hero hero_full_screen hero_parallax  parallax-window" data-parallax="scroll" data-image-src="img/bg/intro1.png" style="background: url(img/banner/slider2.png) no-repeat;background-size: cover;">
@@ -557,17 +488,13 @@
                 <h5 class="footer_header">Useful Links</h5>
                 <ul class="list-unstyled footer-list">
                     <li>
-                        <a href="#home">Home</a>
+                        <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="#services">Services</a>
-                    </li>
-
-                    <li>
-                        <a href="#projects">Projects</a>
+                        <a href="javascript:void(0);">Services</a>
                     </li>
                     <li>
-                        <a href="#contact">Contact</a>
+                        <a href="javascript:void(0);">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -575,17 +502,13 @@
                 <h5 class="footer_header">Useful Links</h5>
                 <ul class="list-unstyled footer-list">
                     <li>
-                        <a href="#home">Home</a>
+                        <a href="index.html">Home</a>
                     </li>
                     <li>
-                        <a href="#services">Services</a>
-                    </li>
-
-                    <li>
-                        <a href="#projects">Projects</a>
+                        <a href="javascript:void(0);">Services</a>
                     </li>
                     <li>
-                        <a href="#contact">Contact</a>
+                        <a href="javascript:void(0);">Contact</a>
                     </li>
                 </ul>
             </div>
