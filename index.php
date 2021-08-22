@@ -130,7 +130,7 @@
                                     <p class="product-price">$50</p>
                                 </div>
                                 <div class="text-bottom">
-                                    <a href="#" class="add-button">Add to Car</a>
+                                    <a href="#" class="add-button">Add to Cart</a>
                                 </div>
                             </div>
                         </div>
@@ -146,7 +146,7 @@
                                     <p class="product-price">$50</p>
                                 </div>
                                 <div class="text-bottom">
-                                    <a href="#" class="add-button">Add to Car</a>
+                                    <a href="#" class="add-button">Add to Cart</a>
                                 </div>
                             </div>
                         </div>
@@ -162,7 +162,7 @@
                                     <p class="product-price">$50</p>
                                 </div>
                                 <div class="text-bottom">
-                                    <a href="#" class="add-button">Add to Car</a>
+                                    <a href="#" class="add-button">Add to Cart</a>
                                 </div>
                             </div>
                         </div>
@@ -178,7 +178,7 @@
                                     <p class="product-price">$50</p>
                                 </div>
                                 <div class="text-bottom">
-                                    <a href="#" class="add-button">Add to Car</a>
+                                    <a href="#" class="add-button">Add to Cart</a>
                                 </div>
                             </div>
                         </div>
@@ -194,7 +194,7 @@
                                     <p class="product-price">$50</p>
                                 </div>
                                 <div class="text-bottom">
-                                    <a href="#" class="add-button">Add to Car</a>
+                                    <a href="#" class="add-button">Add to Cart</a>
                                 </div>
                             </div>
                         </div>
@@ -210,7 +210,7 @@
                                     <p class="product-price">$50</p>
                                 </div>
                                 <div class="text-bottom">
-                                    <a href="#" class="add-button">Add to Car</a>
+                                    <a href="#" class="add-button">Add to Cart</a>
                                 </div>
                             </div>
                         </div>
@@ -226,7 +226,7 @@
                                     <p class="product-price">$50</p>
                                 </div>
                                 <div class="text-bottom">
-                                    <a href="#" class="add-button">Add to Car</a>
+                                    <a href="#" class="add-button">Add to Cart</a>
                                 </div>
                             </div>
                         </div>
@@ -242,7 +242,7 @@
                                     <p class="product-price">$50</p>
                                 </div>
                                 <div class="text-bottom">
-                                    <a href="#" class="add-button">Add to Car</a>
+                                    <a href="#" class="add-button">Add to Cart</a>
                                 </div>
                             </div>
                         </div>
@@ -338,7 +338,7 @@
                             <p class="product-price">$50</p>
                         </div>
                         <div class="text-bottom">
-                            <a href="#" class="add-button">Add to Car</a>
+                            <a href="#" class="add-button">Add to Cart</a>
                         </div>
                     </div>
                 </div>
@@ -354,7 +354,7 @@
                             <p class="product-price">$50</p>
                         </div>
                         <div class="text-bottom">
-                            <a href="#" class="add-button">Add to Car</a>
+                            <a href="#" class="add-button">Add to Cart</a>
                         </div>
                     </div>
                 </div>
@@ -370,7 +370,7 @@
                             <p class="product-price">$50</p>
                         </div>
                         <div class="text-bottom">
-                            <a href="#" class="add-button">Add to Car</a>
+                            <a href="#" class="add-button">Add to Cart</a>
                         </div>
                     </div>
                 </div>
@@ -386,7 +386,7 @@
                             <p class="product-price">$50</p>
                         </div>
                         <div class="text-bottom">
-                            <a href="#" class="add-button">Add to Car</a>
+                            <a href="#" class="add-button">Add to Cart</a>
                         </div>
                     </div>
                 </div>
@@ -402,7 +402,7 @@
                             <p class="product-price">$50</p>
                         </div>
                         <div class="text-bottom">
-                            <a href="#" class="add-button">Add to Car</a>
+                            <a href="#" class="add-button">Add to Cart</a>
                         </div>
                     </div>
                 </div>
@@ -418,7 +418,7 @@
                             <p class="product-price">$50</p>
                         </div>
                         <div class="text-bottom">
-                            <a href="#" class="add-button">Add to Car</a>
+                            <a href="#" class="add-button">Add to Cart</a>
                         </div>
                     </div>
                 </div>
