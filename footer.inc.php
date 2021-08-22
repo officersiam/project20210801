@@ -58,8 +58,8 @@
                 <address>
                     Hasheon <br>
                     Mulatol, Rangpur City.<br>
-                    <abbr title="Phone">E:</abbr> Support@mail.com<br>
-                    <abbr title="Phone">E:</abbr> +773-804-9578<br>
+                    <abbr title="Email">E:</abbr> Support@mail.com<br>
+                    <abbr title="Phone">P:</abbr> +773-804-9578<br>
                 </address>
             </div>
 
