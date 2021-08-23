@@ -4,6 +4,9 @@
 
       <!-- Sidebar - Brand -->
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
+        <div class="sidebar-brand-icon">
+          <i class="fas fa-laugh"></i>
+        </div>
         <div class="sidebar-brand-text mx-3">Site Name</div>
       </a>
 
