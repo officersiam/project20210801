@@ -30,47 +30,72 @@
 
       <!-- Nav Item - Pages Collapse Menu -->
       <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-          <i class="fas fa-fw fa-cog"></i>
-          <span>Menu 1</span>
-        </a>
-        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
-          <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Menu Section 1:</h6>
-            <a class="collapse-item" href="javascript:void(0);">Link 1</a>
-            <a class="collapse-item" href="javascript:void(0);">Link 2</a>
+          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#Plugin"
+              aria-expanded="true" aria-controls="Plugin">
+              <i class="fas fa-fw fa-folder"></i>
+              <span>Plugin</span>
+          </a>
+          <div id="Plugin" class="collapse" aria-labelledby="headingPages" data-parent="#Plugin">
+              <div class="bg-white py-2 collapse-inner rounded">
+                  <a class="collapse-item" href="addPlugin.php">Add Plugin</a>
+                  <a class="collapse-item" href="listPlugin.php">List Plugin</a>
+              </div>
           </div>
-        </div>
       </li>
-
-      <!-- Divider -->
-      <hr class="sidebar-divider">
-
-      <!-- Heading -->
-      <div class="sidebar-heading">
-        Plugins
-      </div>
 
       <!-- Nav Item - Pages Collapse Menu -->
       <li class="nav-item">
-        <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
-          <i class="fas fa-fw fa-folder"></i>
-          <span>Option 1</span>
-        </a>
-        <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
-          <div class="bg-white py-2 collapse-inner rounded">
-            <h6 class="collapse-header">Option Sections:</h6>
-            <a class="collapse-item" href="login.php">Login</a>
-            <a class="collapse-item" href="register.php">Register</a>
+          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#Slider"
+              aria-expanded="true" aria-controls="Slider">
+              <i class="fas fa-fw fa-folder"></i>
+              <span>Slider</span>
+          </a>
+          <div id="Slider" class="collapse" aria-labelledby="headingPages" data-parent="#Slider">
+              <div class="bg-white py-2 collapse-inner rounded">
+                  <a class="collapse-item" href="addSlider.php">Add Slider</a>
+                  <a class="collapse-item" href="listSlider.php">List Slider</a>
+              </div>
           </div>
-        </div>
       </li>
 
-      <!-- Nav Item - Charts -->
+      <!-- Nav Item - Pages Collapse Menu -->
       <li class="nav-item">
-        <a class="nav-link" href="charts.php">
-          <i class="fas fa-fw fa-chart-area"></i>
-          <span>Menu Link 1</span></a>
+          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#whatWeDo"
+              aria-expanded="true" aria-controls="whatWeDo">
+              <i class="fas fa-fw fa-folder"></i>
+              <span>What We Offer</span>
+          </a>
+          <div id="whatWeDo" class="collapse" aria-labelledby="headingPages" data-parent="#whatWeDo">
+              <div class="bg-white py-2 collapse-inner rounded">
+                  <a class="collapse-item" href="addWhatWeDo.php">Add What We Do</a>
+                  <a class="collapse-item" href="listWhatWeDo.php">List What We Do</a>
+              </div>
+          </div>
+      </li>
+
+      <!-- Nav Item - Pages Collapse Menu -->
+      <li class="nav-item">
+          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#Product"
+              aria-expanded="true" aria-controls="Product">
+              <i class="fas fa-fw fa-folder"></i>
+              <span>Product</span>
+          </a>
+          <div id="Product" class="collapse" aria-labelledby="headingPages" data-parent="#Product">
+              <div class="bg-white py-2 collapse-inner rounded">
+                  <a class="collapse-item" href="addProduct.php">Add Product</a>
+                  <a class="collapse-item" href="listProduct.php">List Product</a>
+              </div>
+          </div>
+      </li>
+
+      <!-- Divider -->
+      <hr class="sidebar-divider d-none d-md-block">
+
+      <!-- Nav Item - Tables -->
+      <li class="nav-item">
+          <a class="nav-link" href="#" data-toggle="modal" data-target="#logoutModal">
+              <i class="fas fa-sign-out-alt"></i>
+              <span>Logout</span></a>
       </li>
 
       <!-- Divider -->

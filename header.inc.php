@@ -25,6 +25,27 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <!-- Custom styles for this template -->
     <link href="css/style.css" rel="stylesheet">
+    <style>
+        .uk-form-width-large {
+            width: 1200px !important;
+        }
+        .uk-input, .uk-select:not([multiple]):not([size]) {
+            height: 200px !important;
+            vertical-align: middle !important;
+            display: inline-block !important;
+        }
+        .uk-input, .uk-select::placeholder {
+            text-align: center !important;
+            font-size: 20px !important;
+            color: #222;
+            font-weight: bold;
+        }
+        @media only screen and (max-device-witdh: 768px){
+            .dashLogoMob{
+                display: none;
+            }
+        }
+    </style>
 </head>
 <body  data-spy="scroll" data-target=".navbar" data-offset="50">
 
@@ -61,7 +82,14 @@
                     <li>
                         <a href="contact.php">Contact</a>
                     </li>
-
+<?php if (isLoggedIn()) { ?>
+                        <li class='nav-item'>
+                            <a class='nav-link' href='panel/'>Dashboard</a>
+                        </li>
+                        <li class='nav-item'>
+                            <a class='nav-link' href='logout.php'>Logout</a>
+                        </li>
+<?php } ?>
                 </ul>
             </div>
             <!--/Menu -->

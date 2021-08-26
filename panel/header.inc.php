@@ -1,3 +1,6 @@
+<?php
+  include("../core.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,5 +20,26 @@
 
   <!-- Custom styles for this template-->
   <link href="css/sb-admin-2.min.css" rel="stylesheet">
+    <style>
+        .uk-form-width-large {
+            width: 1200px !important;
+        }
+        .uk-input, .uk-select:not([multiple]):not([size]) {
+            height: 200px !important;
+            vertical-align: middle !important;
+            display: inline-block !important;
+        }
+        .uk-input, .uk-select::placeholder {
+            text-align: center !important;
+            font-size: 20px !important;
+            color: #222;
+            font-weight: bold;
+        }
+        @media only screen and (max-device-witdh: 768px){
+            .dashLogoMob{
+                display: none;
+            }
+        }
+    </style>
 
 </head>
