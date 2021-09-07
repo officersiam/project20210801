@@ -3,16 +3,16 @@
 ?>
 
     <!-- ========== hero section ========== -->
-    <section id="home" class="hero hero_full_screen hero_parallax  parallax-window" data-parallax="scroll" data-image-src="img/bg/intro1.png" style="background: url(img/banner/slider2.png) no-repeat;background-size: cover;">
-        <div class="bg-overlay opacity-8">
-        </div>
-        <div class="hero_parallax_inner">
-            <div class="container">
-                <div class="banner-wrapper col-md-8" tabindex="0">
-                    <h1 class="uk-animation-slide-top">
+<section id="home" class="hero hero_full_screen hero_parallax  parallax-window" data-parallax="scroll" data-image-src="img/bg/intro1.png" style="background: url(img/banner/slider2.png) no-repeat;background-size: cover;">
+    <div class="bg-overlay opacity-8">
+    </div>
+    <div class="hero_parallax_inner">
+        <div class="container">
+            <div class="banner-wrapper col-md-8" tabindex="0">
+                <h1 class="uk-animation-slide-top">
                        Here will your title if have
-                   </h1>
-                   <p class="uk-animation-slide-top">
+                </h1>
+                <p class="uk-animation-slide-top">
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quaerat mollitia, corrupti quae hic ex perspiciatis? Asperiores eaque cupiditate aperiam numquam? Est odio ipsa totam quas quaerat velit sed aut iure.
                 </p>
             </div>
@@ -31,61 +31,61 @@
                    <h6 class="sub-title">
                     <span></span>
                     What We Do
-                </h6>
-                <h3 class="title">
-                 Services for You
-             </h3>
-         </div>
-     </div>
- </div>
- <!-- end section title  -->
- <div class="row">
-    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6">
-        <div class="services-box animated fadeInDown wow" data-wow-delay=".1s">
-            <div class="service-icon">
-                <i class="flaticon-020-solution"></i>
-            </div>
-            <div class="services-text">
-                <h5>Business Consulting</h5>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+                    </h6>
+                    <h3 class="title">
+                    Services for You
+                    </h3>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6">
-        <div class="services-box  animated fadeInDown wow" data-wow-delay=".2s">
-            <div class="service-icon">
-               <i class="flaticon-005-cost"></i>
-           </div>
-           <div class="services-text">
-            <h5>Investment Plan</h5>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+        <!-- end section title  -->
+        <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6">
+                <div class="services-box animated fadeInDown wow" data-wow-delay=".1s">
+                    <div class="service-icon">
+                        <i class="flaticon-020-solution"></i>
+                    </div>
+                    <div class="services-text">
+                        <h5>Business Consulting</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6">
+                <div class="services-box  animated fadeInDown wow" data-wow-delay=".2s">
+                    <div class="service-icon">
+                        <i class="flaticon-005-cost"></i>
+                    </div>
+                    <div class="services-text">
+                        <h5>Investment Plan</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6">
+                <div class="services-box  animated fadeInDown wow" data-wow-delay=".3s">
+                    <div class="service-icon">
+                        <i class="flaticon-001-advertising"></i>
+                    </div>
+                    <div class="services-text">
+                        <h5>World Marketing</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6">
+                <div class="services-box  animated fadeInDown wow" data-wow-delay=".4s">
+                    <div class="service-icon">
+                        <i class="flaticon-003-business-plan"></i>
+                    </div>
+                    <div class="services-text">
+                        <h5>Business Plan</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
-<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6">
-    <div class="services-box  animated fadeInDown wow" data-wow-delay=".3s">
-        <div class="service-icon">
-            <i class="flaticon-001-advertising"></i>
-        </div>
-        <div class="services-text">
-            <h5>World Marketing</h5>
-            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
-        </div>
-    </div>
-</div>
-<div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6">
-    <div class="services-box  animated fadeInDown wow" data-wow-delay=".4s">
-     <div class="service-icon">
-        <i class="flaticon-003-business-plan"></i>
-    </div>
-    <div class="services-text">
-        <h5>Business Plan</h5>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
-    </div>
-</div>
-</div>
-</div>
-</div> <!-- end container -->
+    </div> <!-- end container -->
 </section>
 <!-- ========== Services section end ========== -->
 
@@ -97,11 +97,11 @@
             <div class="col-xs-12">
                 <div class="section-title mb25 text-center">
                    <h6 class="sub-title">
-                    <span></span>
-                    Portfolio
+                        <span></span>
+                        Portfolio
                     </h6>
                     <h3 class="title">
-                    Products for You
+                        Products for You
                     </h3>
                 </div>
             </div>
@@ -309,132 +309,130 @@
     <div class="container-fluid">
        <!-- section title -->
        <div class="row">
-        <div class="col-xs-12">
-            <div class="section-title mb25 text-center">
-               <h6 class="sub-title">
-                <span></span>
-                Featured
-            </h6>
-            <h3 class="title">
-             Top Sale for You
-         </h3>
-   </div>
-</div>
-</div>
-
-<div class="uk-slider-container-offset" uk-slider>
-
-    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
-
-        <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-4@s uk-grid" uk-slideshow="autoplay:true">
-            <li>
-                <div class="product-card">
-                    <div class="product-img">
-                        <img src="img/projects/pro07.png" alt="">
-                    </div>
-                    <div class="product-text-center">
-                        <div class="text-top">
-                            <h2 class="product-title">Product-1</h2>
-                            <p class="product-price">$50</p>
-                        </div>
-                        <div class="text-bottom">
-                            <a href="#" class="add-button">Add to Cart</a>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div class="product-card">
-                    <div class="product-img">
-                        <img src="img/projects/pro08.png" alt="">
-                    </div>
-                    <div class="product-text-center">
-                        <div class="text-top">
-                            <h2 class="product-title">Product-1</h2>
-                            <p class="product-price">$50</p>
-                        </div>
-                        <div class="text-bottom">
-                            <a href="#" class="add-button">Add to Cart</a>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div class="product-card">
-                    <div class="product-img">
-                        <img src="img/projects/pro09.png" alt="">
-                    </div>
-                    <div class="product-text-center">
-                        <div class="text-top">
-                            <h2 class="product-title">Product-1</h2>
-                            <p class="product-price">$50</p>
-                        </div>
-                        <div class="text-bottom">
-                            <a href="#" class="add-button">Add to Cart</a>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div class="product-card">
-                    <div class="product-img">
-                        <img src="img/projects/pro07.png" alt="">
-                    </div>
-                    <div class="product-text-center">
-                        <div class="text-top">
-                            <h2 class="product-title">Product-1</h2>
-                            <p class="product-price">$50</p>
-                        </div>
-                        <div class="text-bottom">
-                            <a href="#" class="add-button">Add to Cart</a>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div class="product-card">
-                    <div class="product-img">
-                        <img src="img/projects/pro08.png" alt="">
-                    </div>
-                    <div class="product-text-center">
-                        <div class="text-top">
-                            <h2 class="product-title">Product-1</h2>
-                            <p class="product-price">$50</p>
-                        </div>
-                        <div class="text-bottom">
-                            <a href="#" class="add-button">Add to Cart</a>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li>
-                <div class="product-card">
-                    <div class="product-img">
-                        <img src="img/projects/pro09.png" alt="">
-                    </div>
-                    <div class="product-text-center">
-                        <div class="text-top">
-                            <h2 class="product-title">Product-1</h2>
-                            <p class="product-price">$50</p>
-                        </div>
-                        <div class="text-bottom">
-                            <a href="#" class="add-button">Add to Cart</a>
-                        </div>
-                    </div>
-                </div>
-            </li>
-        </ul>
-
-        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
-
+            <div class="col-xs-12">
+                <div class="section-title mb25 text-center">
+                <h6 class="sub-title">
+                    <span></span>
+                    Featured
+                </h6>
+                <h3 class="title">
+                    Top Sale for You
+                </h3>
+            </div>
+        </div>
     </div>
 
-    <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+    <div class="uk-slider-container-offset" uk-slider>
 
-</div>
-</div>
-</div>
+        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1">
+
+            <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-4@s uk-grid" uk-slideshow="autoplay:true">
+                <li>
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="img/projects/pro07.png" alt="">
+                        </div>
+                        <div class="product-text-center">
+                            <div class="text-top">
+                                <h2 class="product-title">Product-1</h2>
+                                <p class="product-price">$50</p>
+                            </div>
+                            <div class="text-bottom">
+                                <a href="#" class="add-button">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="img/projects/pro08.png" alt="">
+                        </div>
+                        <div class="product-text-center">
+                            <div class="text-top">
+                                <h2 class="product-title">Product-1</h2>
+                                <p class="product-price">$50</p>
+                            </div>
+                            <div class="text-bottom">
+                                <a href="#" class="add-button">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="img/projects/pro09.png" alt="">
+                        </div>
+                        <div class="product-text-center">
+                            <div class="text-top">
+                                <h2 class="product-title">Product-1</h2>
+                                <p class="product-price">$50</p>
+                            </div>
+                            <div class="text-bottom">
+                                <a href="#" class="add-button">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="img/projects/pro07.png" alt="">
+                        </div>
+                        <div class="product-text-center">
+                            <div class="text-top">
+                                <h2 class="product-title">Product-1</h2>
+                                <p class="product-price">$50</p>
+                            </div>
+                            <div class="text-bottom">
+                                <a href="#" class="add-button">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="img/projects/pro08.png" alt="">
+                        </div>
+                        <div class="product-text-center">
+                            <div class="text-top">
+                                <h2 class="product-title">Product-1</h2>
+                                <p class="product-price">$50</p>
+                            </div>
+                            <div class="text-bottom">
+                                <a href="#" class="add-button">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="product-card">
+                        <div class="product-img">
+                            <img src="img/projects/pro09.png" alt="">
+                        </div>
+                        <div class="product-text-center">
+                            <div class="text-top">
+                                <h2 class="product-title">Product-1</h2>
+                                <p class="product-price">$50</p>
+                            </div>
+                            <div class="text-bottom">
+                                <a href="#" class="add-button">Add to Cart</a>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
+        </div>
+
+        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+
+    </div>
 </section>
 <!-- ========== Blog SECTION end  ========== -->
 <?php
