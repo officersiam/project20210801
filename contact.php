@@ -3,6 +3,12 @@
 ?>
 
 <!-- ========== CONTACT US  SECTION ========== -->
+<?php
+    $pluginQuery = $db->query("SELECT * FROM plugin_database WHERE `plugin_name` = 'contact' ");
+        while ($row = mysqli_fetch_array($pluginQuery)){
+            $plugin_action = $row['plugin_action'];
+            if($plugin_action == 'show'){
+?>
 <section class="contact_us pt80 bg-gray" id="contact">
 
     <div class="container-fluid">
@@ -58,6 +64,10 @@
 </form>
 </div>
 </section>
+<?php
+        }
+    } 
+?>
 <!-- ========== CONTACT US  SECTION end  ========== -->
 
 <?php

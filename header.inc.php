@@ -76,13 +76,33 @@
                     <li>
                         <a href="index.php">Home</a>
                     </li>
+<?php
+    $pluginQuery = $db->query("SELECT * FROM plugin_database WHERE `plugin_name` = 'services' ");
+        while ($row = mysqli_fetch_array($pluginQuery)){
+            $plugin_action = $row['plugin_action'];
+            if($plugin_action == 'show'){
+?>
                     <li>
                         <a href="javascript:void(0);">Services</a>
                     </li>
+<?php
+        }
+    } 
+?>
+<?php
+    $pluginQuery = $db->query("SELECT * FROM plugin_database WHERE `plugin_name` = 'contact' ");
+        while ($row = mysqli_fetch_array($pluginQuery)){
+            $plugin_action = $row['plugin_action'];
+            if($plugin_action == 'show'){
+?>
                     <li>
                         <a href="contact.php">Contact</a>
                     </li>
-<?php if (isLoggedIn()) { ?>
+<?php
+        }
+    } 
+?>
+<?php if (isAdmin()) { ?>
                         <li class='nav-item'>
                             <a class='nav-link' href='panel/'>Dashboard</a>
                         </li>

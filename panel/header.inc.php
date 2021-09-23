@@ -1,5 +1,10 @@
 <?php
   include("../core.php");
+
+  if (!isAdmin()) {
+    header('location: ../index.php');
+    die();
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
