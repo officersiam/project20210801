@@ -64,7 +64,7 @@ if(isset($_GET['page'])){
                             <p class="product-price"><?php echo $productPrice; ?></p>
                         </div>
                         <div class="text-bottom">
-                            <a href="productDetails.php?id=<?php echo $productId; ?>" class="add-button">Add to Cart</a>
+                            <a href="productDetails.php?pageId=<?php echo $productId; ?>" class="add-button">Add to Cart</a>
                         </div>
                     </div>
                 </div>

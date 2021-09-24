@@ -1878,3 +1878,26 @@ footer address{
         font-size: 44px;
     }
 }
+
+
+
+/* service page */
+.services{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.service-card{
+    width: 18rem;
+    border: 2px solid #ededed;
+    padding: 20px;
+    box-shadow: 1px 1px 5px #ddd;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.card-body>.service-icon>i:hover{
+    background: #DF1B4D;
+    color: #fff;
+    transform: rotate(360deg);
+}

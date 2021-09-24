@@ -61,10 +61,10 @@
                     <span class="icon-bar"></span>
                 </button>
                 <!-- LOGO -->
-                <a class="logo" href="index.html">
+                <a class="logo" href="index.php">
                     Kicu Ekta Diboni
                 </a>
-                <a class="sticky-logo" href="index.html">
+                <a class="sticky-logo" href="index.php">
                     Kicu Ekta Diboni
                 </a>
             </div>
@@ -83,7 +83,7 @@
             if($plugin_action == 'show'){
 ?>
                     <li>
-                        <a href="javascript:void(0);">Services</a>
+                        <a href="services.php">Services</a>
                     </li>
 <?php
         }

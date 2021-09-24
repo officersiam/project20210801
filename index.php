@@ -68,23 +68,26 @@
         <!-- end section title  -->
         <div class="row">
 <?php
-    $whatWeDoQuery = $db->query("SELECT * FROM whatwedo ORDER BY `whatwedo_id`");
+    $whatWeDoQuery = $db->query("SELECT * FROM whatwedo WHERE `whatwedo_lebel` = 'home' ");
         while ($row = mysqli_fetch_array($whatWeDoQuery)){
+            $whatWeDoId = $row['whatwedo_id'];
             $whatWeDoIcon = $row['whatwedo_icon'];
             $whatWeDoTitle = $row['whatwedo_title'];
             $whatWeDoDiscription = $row['whatwedo_discription'];
 ?>
-            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6">
-                <div class="services-box animated fadeInDown wow" data-wow-delay=".1s">
-                    <div class="service-icon">
-                        <i class="<?php echo $whatWeDoIcon; ?>"></i>
-                    </div>
-                    <div class="services-text">
-                        <h5><?php echo $whatWeDoTitle; ?></h5>
-                        <p><?php echo $whatWeDoDiscription; ?></p>
+            <a href="serviceDetails.php?pageId=<?php echo $whatWeDoId; ?>">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6">
+                    <div class="services-box animated fadeInDown wow" data-wow-delay=".1s">
+                        <div class="service-icon">
+                            <i class="<?php echo $whatWeDoIcon; ?>"></i>
+                        </div>
+                        <div class="services-text">
+                            <h5><?php echo $whatWeDoTitle; ?></h5>
+                            <p><?php echo $whatWeDoDiscription; ?></p>
+                        </div>
                     </div>
                 </div>
-            </div>
+            </a>
 <?php
     }
 ?>
@@ -159,7 +162,7 @@
                                     <p class="product-price"><?php echo $productPrice; ?></p>
                                 </div>
                                 <div class="text-bottom">
-                                    <a href="productDetails.php?id=<?php echo $productId; ?>" class="add-button">Add to Cart</a>
+                                    <a href="productDetails.php?pageId=<?php echo $productId; ?>" class="add-button">Add to Cart</a>
                                 </div>
                             </div>
                         </div>
