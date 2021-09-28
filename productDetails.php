@@ -14,7 +14,7 @@
                 <p style="
     font-weight: 600;
     color: crimson;
-    font-size: 25px;
+    font-size: 20px;
     margin: 0;">Price $50</p>
                 <p>Tags: <a href="javascript:void(0)">tags</a></p>
                 <a class="btn btn-primary" href="order.php">Order Now</a>

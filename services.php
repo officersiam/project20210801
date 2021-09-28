@@ -118,7 +118,7 @@
                                     <p class="product-price">$50</p>
                                 </div>
                                 <div class="text-bottom">
-                                    <a href="#" class="add-button">Add to Cart</a>
+                                    <a href="productDetails.php" class="add-button">Add to Cart</a>
                                 </div>
                             </div>
                         </div>

@@ -61,6 +61,21 @@
                     <abbr title="Email">E:</abbr> Support@mail.com<br>
                     <abbr title="Phone">P:</abbr> +773-804-9578<br>
                 </address>
+
+                <ul class="footer_social">
+                    <li>
+                        <img src="img/users/user.png" width="40px" alt="">
+                    </li>
+                    <li>
+                        <img src="img/users/user.png" width="40px" alt="">
+                    </li>
+                    <li>
+                        <img src="img/users/user.png" width="40px" alt="">
+                    </li>
+                    <li>
+                        <img src="img/users/user.png" width="40px" alt="">
+                    </li>
+                </ul>
             </div>
 
         </div> <!-- end row -->
