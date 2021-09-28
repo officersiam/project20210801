@@ -75,19 +75,17 @@
             $whatWeDoTitle = $row['whatwedo_title'];
             $whatWeDoDiscription = $row['whatwedo_discription'];
 ?>
-            <a href="serviceDetails.php?pageId=<?php echo $whatWeDoId; ?>">
-                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6">
-                    <div class="services-box animated fadeInDown wow" data-wow-delay=".1s">
-                        <div class="service-icon">
-                            <i class="<?php echo $whatWeDoIcon; ?>"></i>
-                        </div>
-                        <div class="services-text">
-                            <h5><?php echo $whatWeDoTitle; ?></h5>
-                            <p><?php echo $whatWeDoDiscription; ?></p>
-                        </div>
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 col-xs-6">
+                <div class="services-box animated fadeInDown wow" data-wow-delay=".1s">
+                    <div class="service-icon">
+                        <i class="<?php echo $whatWeDoIcon; ?>"></i>
+                    </div>
+                    <div class="services-text">
+                        <h5><?php echo $whatWeDoTitle; ?></h5>
+                        <p><?php echo $whatWeDoDiscription; ?></p>
                     </div>
                 </div>
-            </a>
+            </div>
 <?php
     }
 ?>

@@ -29,7 +29,7 @@
             $whatWeDoTitle = $row['whatwedo_title'];
             $whatWeDoDiscription = $row['whatwedo_discription'];
 ?>          
-            <div class="col-lg-4 col-md-4 col-xs-6">
+            <div class="col-lg-3 col-md-3 col-xs-6">
                 <div class="card text-center service-card">
                         <div class="card-body">
                             <h5 class="card-title"><?php echo $whatWeDoTitle; ?></h5>
@@ -37,7 +37,6 @@
                                 <i class="<?php echo $whatWeDoIcon; ?>"></i>
                             </div>
                             <p class="card-text"><?php echo $whatWeDoDiscription; ?></p>
-                            <a href="serviceDetails.php?pageId=<?php echo $whatWeDoId; ?>" class="btn btn-primary" style="margin-top:20px">Order Now</a>
                         </div>
                 </div>
             </div>
@@ -50,10 +49,6 @@
         <div class="row">
             <div class="col-xs-12">
                 <div class="section-title mb25 text-center">
-                   <h6 class="sub-title">
-                        <span></span>
-                        Services
-                    </h6>
                     <h3 class="title">
                         Services for You
                     </h3>
