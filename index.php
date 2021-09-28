@@ -354,7 +354,7 @@
 
 <!-- ========== Blog SECTION ========== -->
 <?php
-    $pluginQuery = $db->query("SELECT * FROM plugin_database WHERE `plugin_name` = 'counter' ");
+    $pluginQuery = $db->query("SELECT * FROM plugin_database WHERE `plugin_name` = 'feature' ");
         while ($row = mysqli_fetch_array($pluginQuery)){
             $plugin_action = $row['plugin_action'];
             if($plugin_action == 'show'){
