@@ -67,5 +67,4 @@
             </div>
             <!-- End of Main Content -->
 
-  
 <?php include("footer.inc.php"); ?>

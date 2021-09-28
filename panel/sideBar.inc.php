@@ -28,6 +28,13 @@
         Main Menus
       </div>
 
+      <!-- Nav Item - Tables -->
+      <li class="nav-item">
+          <a class="nav-link" href="siteSettings.php">
+              <i class="fas fa-cogs"></i>
+              <span>Site Settings</span></a>
+      </li>
+
       <!-- Nav Item - Pages Collapse Menu -->
       <li class="nav-item">
           <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#Plugin"
@@ -42,6 +49,20 @@
               </div>
           </div>
       </li>
+
+        <!-- Nav Item - Tables -->
+        <li class="nav-item">
+            <a class="nav-link" href="listCategory.php">
+                <i class="fas fa-list"></i>
+                <span>Category</span></a>
+        </li>
+
+        <!-- Nav Item - Tables -->
+        <li class="nav-item">
+            <a class="nav-link" href="listContact.php">
+                <i class="fas fa-envelope"></i>
+                <span>Mails</span></a>
+        </li>
 
       <!-- Nav Item - Pages Collapse Menu -->
       <li class="nav-item">

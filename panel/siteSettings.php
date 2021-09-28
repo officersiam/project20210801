@@ -30,7 +30,7 @@
             $site_setting_adress = $row['site_setting_adress'];
             $site_setting_phone = $row['site_setting_phone'];
             $site_setting_email = $row['site_setting_email'];
-            $site_setting_discription = $row['site_setting_discription'];
+            $site_setting_description = $row['site_setting_description'];
 ?>
                         <div class="form-group">
                             <label>Site Name</label>
@@ -64,7 +64,7 @@
                         </div>
                         <div class="form-group">
                             <label>Discription</label>
-                            <textarea type="text" id="editor" class="form-control" name="site_setting_discription" aria-describedby="siteBusinessHourHelp"><?php echo $site_setting_discription;?></textarea>
+                            <textarea type="text" id="editor" class="form-control" name="site_setting_description" aria-describedby="siteBusinessHourHelp"><?php echo $site_setting_description;?></textarea>
                             <small id="siteBusinessHourHelp" class="form-text text-muted">Type Your Discription Here.</small>
                         </div>
 <?php } ?>

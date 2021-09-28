@@ -68,7 +68,7 @@
         <!-- end section title  -->
         <div class="row">
 <?php
-    $whatWeDoQuery = $db->query("SELECT * FROM whatwedo WHERE `whatwedo_lebel` = 'home' ");
+    $whatWeDoQuery = $db->query("SELECT * FROM whatwedo");
         while ($row = mysqli_fetch_array($whatWeDoQuery)){
             $whatWeDoId = $row['whatwedo_id'];
             $whatWeDoIcon = $row['whatwedo_icon'];
@@ -288,7 +288,7 @@
         </div>
     </div>
     <div class="more-button">
-        <a href="product.php" class="btn btn_blue_black more_button">More</a>
+        <a href="services.php" class="btn btn_blue_black more_button">More</a>
     </div>
 </section>
 <?php
